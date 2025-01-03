@@ -1,0 +1,24 @@
+# Project information
+site_name: Project Portfolio
+site_url: https://juanguajardo.github.io/
+site_author: Juan Guajardo
+site_description: >-
+  I'm Juan Guajardo, an Economist with experience in a range of quantitative methodologies
+
+# Repository:
+repo_name: JuanGuajardo/JuanGuajardo.github.io
+repo_url: https://github.com/JuanGuajardo/JuanGuajardo.github.io
+
+# Additional configuration
+# extra:
+#   analytics:
+#     provider: google
+#     property: #<your google analystics code>
+
+# Configuration:
+theme:
+  name: material
+nav:
+- Home: index.md
+- Previous data science projects:
+  - "The UMP Effects on the Mexican Economy": international_ump_effects/readme.md
