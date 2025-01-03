@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Welcome Juan Guajardo's Projects Portfolio
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Hello testing testing cool stuff
 
-## Commands
+## Economist
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Check out my projects
+1/ [The International Effectos of The Fed's UMP](international_ump_effects/readme.md) :
+Academic Project where I apply a VAR (Vector Autorregression) to investigate the effect of the Fed's UMP on the Mexican Economy
+2/ [UMP MD](international_ump_effects/WuXia.md)
