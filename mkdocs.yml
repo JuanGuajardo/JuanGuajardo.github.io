@@ -19,6 +19,6 @@ repo_url: https://github.com/JuanGuajardo/JuanGuajardo.github.io
 theme:
   name: material
 nav:
-- Home: index.md
-- Previous data science projects:
-  - "The UMP Effects on the Mexican Economy": international_ump_effects/readme.md
+  - Home: index.md
+  - Current data science projects:
+    - "The UMP Effects on the Mexican Economy": international_ump_effects/readme.md
