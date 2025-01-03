@@ -10,10 +10,10 @@ repo_name: JuanGuajardo/JuanGuajardo.github.io
 repo_url: https://github.com/JuanGuajardo/JuanGuajardo.github.io
 
 # Additional configuration
-# extra:
-#   analytics:
-#     provider: google
-#     property: #<your google analystics code>
+extra:
+  analytics:
+    provider: google
+    property: G-YDX4P9QBR4
 
 # Configuration:
 theme:
