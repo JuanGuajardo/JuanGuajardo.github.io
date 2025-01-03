@@ -22,3 +22,4 @@ nav:
   - Home: index.md
   - Current data science projects:
     - "The UMP Effects on the Mexican Economy": international_ump_effects/readme.md
+    - "UMP Marksown": international_ump_effects/WuXia.html
