@@ -57,10 +57,6 @@
          <lastmod>2025-01-08</lastmod>
     </url>
     <url>
-         <loc>https://juanguajardo.github.io/toy_climate_option/readme/</loc>
-         <lastmod>2025-01-08</lastmod>
-    </url>
-    <url>
          <loc>https://juanguajardo.github.io/toy_monte_carlo/readme/</loc>
          <lastmod>2025-01-08</lastmod>
     </url>
@@ -70,6 +66,10 @@
     </url>
     <url>
          <loc>https://juanguajardo.github.io/toy_portfolio_optimization/readme/</loc>
+         <lastmod>2025-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://juanguajardo.github.io/toy_weather_derivative/readme/</loc>
          <lastmod>2025-01-08</lastmod>
     </url>
 </urlset>
