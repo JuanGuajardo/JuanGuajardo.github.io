@@ -1,5 +1,5 @@
 # Project information
-site_name: Project Portfolio
+site_name: Juan Guajardo
 site_url: https://juanguajardo.github.io/
 site_author: Juan Guajardo
 site_description: >-
@@ -8,6 +8,31 @@ site_description: >-
 # Repository:
 repo_name: JuanGuajardo/JuanGuajardo.github.io
 repo_url: https://github.com/JuanGuajardo/JuanGuajardo.github.io
+
+# Navigation
+nav:
+  - <b>Welcome</b>: index.md
+  - For Recruiters:
+    - "Work in Progress": recruiters_overview/readme.md
+    - "Data Visualization": recruiters_visualization/readme.md
+    # - "NLP": recruiters_nlp/readme.md
+    # - "Optimization": recruiters_optimization/readme.md
+    # - "Cluster Analysis": recruiters_cluster/readme.md
+    # - "Neural Networks": recruiters_nnet/readme.md
+    # - "Risk Modelling": recruiters_risk/readme.md
+  - Deep Dives:
+    - "Overview": technical_overview/readme.md
+    - "International UMP Effects": international_ump_effects/readme.md
+    - "Markov Switching": dd_markov_switching/readme.md
+    # - "Black-Scholes": dd_black_scholes/readme.md
+    # - "PDE": dd_pde/readme.md
+  - Toy Projects:
+    - "Work in Progress": toy_overview/readme.md
+    # - "Portfolio Optimization": toy_portfolio_optimization/readme.md
+    # - "Monte Carlo": toy_monte_carlo/readme.md
+    # - "Weather Derivative": toy_weather_derivative/readme.md
+  - About Me:
+    - "Juan Guajardo": about_me/readme.md
 
 # Additional configuration
 extra:
@@ -18,8 +43,17 @@ extra:
 # Configuration:
 theme:
   name: material
-nav:
-  - Home: index.md
-  - Current data science projects:
-    - "The UMP Effects on the Mexican Economy": international_ump_effects/readme.md
-    - "UMP Marksown": international_ump_effects/WuXia.html
+  palette:
+    scheme: slate
+    primary: pink
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - navigation.instant.progress
+
+markdown_extensions:
+  - markdown_include.include:
+        base_path: docs
