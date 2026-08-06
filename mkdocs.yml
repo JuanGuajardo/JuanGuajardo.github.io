@@ -28,6 +28,7 @@ nav:
     # - "PDE": dd_pde/readme.md
   - Toy Projects:
     - "Work in Progress": toy_overview/readme.md
+    - "Promotion Optimization": toy_discount/readme.md
     # - "Portfolio Optimization": toy_portfolio_optimization/readme.md
     # - "Monte Carlo": toy_monte_carlo/readme.md
     # - "Weather Derivative": toy_weather_derivative/readme.md
@@ -39,13 +40,21 @@ extra:
   analytics:
     provider: google
     property: G-YDX4P9QBR4
+  consent:
+    title: Use of cookies
+    description: >-
+      This site uses Google Analytics to understand what content is more useful to whoever visits it. Your election only affects our web analytics.
+    actions:
+      - accept
+      - reject
 
 # Configuration:
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: slate
-    primary: pink
+    primary: teal
   features:
     - navigation.instant
     - navigation.tabs
@@ -57,3 +66,8 @@ theme:
 markdown_extensions:
   - markdown_include.include:
         base_path: docs
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
